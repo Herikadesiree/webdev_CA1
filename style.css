@@ -1,0 +1,107 @@
+*{font-family:Georgia, 'Times New Roman', Times, serif
+}
+body {
+    font-style: normal;
+    margin: 0;
+    padding: 2px;;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+    background: url(images/background.jpg);
+}
+
+header > em {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 32px;
+    font-style: normal;
+}
+
+#title {
+    font-size-adjust: border;
+    margin-top: 20px;
+    font-size: 24px;
+    text-transform: uppercase;
+    font-style: italic;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: greenyellow;
+    padding: 10px;
+    border-radius: 5px;
+    font-weight:bolder;
+    display: inline-block;
+}
+
+a {
+    margin-left: 20px;
+    margin-right: 20px;
+    color:rgb(207, 35, 92);
+    text-decoration: none;
+    font-family:cursive;
+
+}
+
+a:hover {
+    color:black;
+}
+
+
+table,
+th,
+td {
+    border: 1px solid pink;
+    border-collapse: collapse;
+    text-align: center;
+
+}
+
+table {
+    width: auto;
+    margin: 0 auto;
+}
+
+caption {
+    margin-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+td {
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: white;
+}
+
+th {
+    position: sticky;
+    top: 0;
+    background-color: palevioletred;
+    padding: 10px;
+}
+
+th:hover {
+    background-color: red;
+}
+
+tbody > tr:nth-child(odd) > td {
+    background-color: rgb(221, 212, 212);
+}
+
+tbody tr:hover td {
+    background-color: rgb(191, 190, 243);
+}
+
+img {
+    width: 20px;
+    height: 20px;
+}
+
+p{color: blue;
+font-size: 1.2rem;
+}
+
+
