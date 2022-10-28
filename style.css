@@ -1,6 +1,20 @@
-*{font-family:Georgia, 'Times New Roman', Times, serif
+/* Mayer Reset */
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
+table {
+    table-layout: fixed;
+    border-collapse: collapse;
+    border-spacing: 0;
+} 
+/* Mayer Reset */
 body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: normal;
     margin: 0;
     padding: 2px;;
@@ -13,23 +27,26 @@ body {
 }
 
 header > em {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:'Times New Roman', Times, serif;
     font-size: 32px;
-    font-style: normal;
+    font-style:oblique;
+  
 }
 
 #title {
-    font-size-adjust: border;
+    
     margin-top: 20px;
     font-size: 24px;
     text-transform: uppercase;
-    font-style: italic;
+    font-style:italic;
+    background-color: whitesmoke;
+
 }
 
 nav {
     margin-top: 20px;
     margin-bottom: 40px;
-    background-color: greenyellow;
+    background-color: whitesmoke;
     padding: 10px;
     border-radius: 5px;
     font-weight:bolder;
@@ -40,7 +57,7 @@ a {
     margin-left: 20px;
     margin-right: 20px;
     color:rgb(207, 35, 92);
-    text-decoration: none;
+    text-decoration:none;
     font-family:cursive;
 
 }
@@ -56,18 +73,24 @@ td {
     border: 1px solid pink;
     border-collapse: collapse;
     text-align: center;
+    
 
 }
 
 table {
     width: auto;
     margin: 0 auto;
+    background-color: whitesmoke;
 }
 
 caption {
-    margin-bottom: 15px;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-width: 2px;
+   
     font-size: 20px;
     text-transform: uppercase;
+    background-color:palevioletred;
 }
 
 td {
@@ -84,7 +107,7 @@ th {
 }
 
 th:hover {
-    background-color: red;
+    background-color:pink;
 }
 
 tbody > tr:nth-child(odd) > td {
@@ -92,7 +115,7 @@ tbody > tr:nth-child(odd) > td {
 }
 
 tbody tr:hover td {
-    background-color: rgb(191, 190, 243);
+    background-color:pink;
 }
 
 img {
